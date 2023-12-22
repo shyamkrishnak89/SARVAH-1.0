@@ -1,0 +1,19 @@
+table, td, th {  
+    border: 1.5px solid #080606;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  p.right {
+    text-align: right;
+  }
+  
+  @media print {
+    #print {
+      display: none;
+    }
+}
